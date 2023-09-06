@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #131416;
+}
+
+.cover {
+  background: url("https://images.unsplash.com/photo-1608835291093-394b0c943a75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 40px;
+}
+p {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.text-container {
+  background-color: #a82e18be; /* This sets the background color with 70% transparency */
+  padding: 20px; /* Add padding for spacing */
+  width: 900px;
+  height: 180px;
+}
+
+.bg-orange {
+  background-color: #a82e18be;
+}
+
+.vh-80 {
+  min-height: 100vh;
+}
+
+.sign__container {
+  width: 60%;
+}
+
+.input-group-wrapper {
+  position: fixed;
+  bottom: 120px;
+  left: 50%; /* Center the element horizontally */
+  transform: translateX(
+    -50%
+  ); /* Move it back by 50% of its own width to center it */
+  width: 50%;
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+@media (min-width: 1200px) {
+  .sign__container {
+    width: 350px;
+  }
+  .subtitle-mb {
+    margin-bottom: 5.5rem !important;
+  }
+}
