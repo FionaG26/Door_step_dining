@@ -56,8 +56,58 @@ Heroku offers a free tier for small-scale projects, making it cost-effective for
   Accurate location services are crucial for a food delivery application, especially in Kenya's diverse urban and rural areas. We ensure that the Google Maps integration is tailored to the unique geographical and logistical challenges of Kenya, including addressing rural areas and diverse terrain.
 
 ## Installation
-Follow these steps to set up DoorstepDining locally on your machine:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/doorstep-dining.git
+To set up DoorstepDining locally on your machine, follow these steps:
+
+1. **Navigate to the project directory:**
+
+    ```bash
+    cd doorstep-dining
+    ```
+
+2. **Install dependencies for the server and client:**
+
+    ```bash
+    npm install
+    cd client
+    npm install
+    cd ..
+    ```
+
+3. **Create a .env file in the root directory for environment variables such as MongoDB URI, API keys, and secrets. Example:**
+
+    ```env
+    PORT=5000
+    MONGODB_URI=your-mongodb-uri
+    GOOGLE_MAPS_API_KEY=your-google-maps-api-key
+    ```
+
+4. **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+5. **Access the application locally at [http://localhost:3000](http://localhost:3000).**
+
+## Usage
+
+Use DoorstepDining as follows:
+
+- **Browse Restaurants:** Explore local restaurants and their menus.
+- **Place an Order:** Select your desired items, customize your order, and proceed to checkout.
+- **Track Your Order:** Keep an eye on your order's status with real-time tracking.
+- **Enjoy Your Meal:** Your delicious meal will be delivered right to your doorstep.
+
+## API Documentation
+
+For developers interested in interacting with our API, you can find detailed documentation [here](link-to-your-api-docs).
+
+## Contributing
+
+We welcome contributions from the community. Please review our [Contributing Guidelines](CONTRIBUTING.md) to get started.
+
+## License
+
+DoorstepDining is licensed under the MIT License.
+
