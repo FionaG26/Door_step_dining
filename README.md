@@ -1,6 +1,6 @@
 # DoorstepDining - "Delight to Your Doorstep!"
 
-![DoorstepDining Logo](link-to-your-logo.png)
+![DoorstepDining Logo](Logo.png)
 
 Welcome to DoorstepDining, your one-stop solution for delicious meals delivered right to your doorstep. This README provides an overview of the project, technologies used, setup instructions, and usage guidelines.
 
