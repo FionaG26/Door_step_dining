@@ -1,0 +1,1 @@
+Welcome to DoorstepDining, your one-stop solution for delicious meals delivered right to your doorstep. This README provides an overview of the project, technologies used, setup instructions, and usage guidelines.
