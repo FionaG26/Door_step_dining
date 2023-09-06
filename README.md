@@ -1,4 +1,4 @@
-# DoorstepDining - Food Delivery Website
+# DoorstepDining - "Delight to Your Doorstep!"
 
 ![DoorstepDining Logo](link-to-your-logo.png)
 
