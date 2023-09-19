@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Page</title>
+    <!-- Add your CSS and JavaScript files here, including Bootstrap and jQuery -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style2.css" />
+    <script type="text/javascript" src="order.js">  </script> 
+  </head>
+  <body>
+    <div class="login-wrap">
+    <h2>==========Price list==========</h2>
+    <table width="40%" id="alignment">
+      <tr>
+        <th>Food Item</th>
+        <th></th>
+        <th>Price(Kes.)</th>
+      </tr>
+      <tr>
+        <td>Chapati Beef</td>
+        <td>-</td>
+        <td>750.00</td>
+      </tr>
+      <tr>
+        <td>Chiken Stew</td>
+        <td>-</td>
+        <td>1200.00</td>
+      </tr>
+      <tr>
+        <td>Grilled Chicken</td>
+        <td>-</td>
+        <td>450.00</td>
+      </tr>
+      <tr>
+        <td>Matoke</td>
+        <td>-</td>
+        <td>200.00</td>
+      </tr>
+      <tr>
+        <td>Githeri</td>
+        <td>-</td>
+        <td>450.00</td>
+      </tr>
+      <tr>
+        <td>Pilau Chicken</td>
+        <td>-</td>
+        <td>1200.00</td>
+      </tr>
+      <tr>
+        <td>Pineapple Juice</td>
+        <td>-</td>
+        <td>100.00</td>
+      </tr>
+      <tr>
+        <td>Mango Juice</td>
+        <td>-</td>
+        <td>100.00</td>
+      </tr>
+      <tr>
+        <td>Orange Juice</td>
+        <td>-</td>
+        <td>100.00</td>
+      </tr>
+      <tr>
+        <td>Apple Juice</td>
+        <td>-</td>
+        <td>100.00</td>
+      </tr>
+      <tr>
+        <td>Passion Juice</td>
+        <td>-</td>
+        <td>100.00</td>
+      </tr>
+      <tr>
+        <td>Strawberry Juice</td>
+        <td>-</td>
+        <td>100.00</td>
+      </tr>
+      <tr>
+        <td>Grape Juice</td>
+        <td>-</td>
+        <td>100.00</td>
+      </tr>
+      <tr>
+        <td>Kiwi Juice</td>
+        <td>-</td>
+        <td>100.00</td>
+      </tr>
+        <tr>
+        <td>Nyama choma</td>
+        <td>-</td>
+        <td>300.00 per kg</td>
+      </tr>
+    </table>
+    <table style="background-color: #ffffffff; margin-left: 100px">
+      <tr>
+        <td>LIPA NA :</td>
+        <td>
+          <select>
+            <option>--Select Item--</option>
+            <option>MPESA</option>
+            <option>Airtel</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>User name:</td>
+        <td>
+          <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td>Mobile:</td>
+        <td><input type="text" id="mblenmb" onfocusout="checkmob()" /></td>
+      </tr>
+    </table>
+    <br />
+    <form name="tblform">
+      <table width="80%" id="alignment">
+        <tr>
+          <th>Food Item</th>
+          <th></th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Item 1:</td>
+          <td>
+            <select id="item1">
+              <option value="1">--Select Item--</option>
+              <option value="Chicken pizza">Chapati Beef</option>
+              <option value="Vegetable Pizza">Chicken stew</option>
+              <option value="Chicken Kottu">Grilled Chicken</option>
+              <option value="Vegetable Kottu">Matoke</option>
+              <option value="Water Bottle ">Githeri</option>
+            </select>
+          </td>
+          <td><input type="number" value="0" id="q1" /></td>
+          <td><input type="text" id="p1" /></td>
+        </tr>
+        <tr>
+          <td>Item 2:</td>
+          <td>
+            <select id="item2">
+              <option value="1">--Select Item--</option>
+              <option value="Chicken pizza">Pizza</option>
+              <option value="Vegetable Pizza">Beef burger</option>
+              <option value="Chicken Kottu">Chips</option>
+              <option value="Vegetable Kottu">Pineapple Juice</option>
+              <option value="Water Bottle ">Mango Juice</option>
+            </select>
+          </td>
+          <td><input type="number" value="0" id="q2" /></td>
+          <td><input type="text" id="p2" /></td>
+        </tr>
+        <tr>
+          <td>Item 3:</td>
+          <td>
+            <select id="item3">
+              <option value="1">--Select Item--</option>
+              <option value="Chicken pizza">Orange Juice</option>
+              <option value="Vegetable Pizza">Apple Juice</option>
+              <option value="Chicken Kottu">Passion Juice</option>
+              <option value="Vegetable Kottu">Strawberry Juice</option>
+              <option value="Water Bottle ">Grape Juice</option>
+            </select>
+          </td>
+          <td><input type="number" value="0" id="q3" /></td>
+          <td><input type="text" id="p3" /></td>
+        </tr>
+        <tr>
+          <td>Item 4:</td>
+          <td>
+            <select id="item4">
+              <option value="1">--Select Item--</option>
+              <option value="Chapati Beef">Kiwi juice</option>
+              <option value="Chicken stew">Nyama Choma</option>
+              <option value="Chicken Kottu">Vegetable soup</option>
+              <option value="Vegetable Kottu">Vegetable Kottu</option>
+              <option value="Water Bottle ">Water Bottle</option>
+            </select>
+          </td>
+          <td><input type="number" value="0" id="q4" /></td>
+          <td><input type="text" id="p4" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>
+            <input
+              type="submit"
+              class="button"
+              value="Create Bill"
+              onclick="createBill()"
+            />
+          </td>
+          <td><input type="reset" class="button" value="Clear" /></td>
+        </tr>
+      </table>
+    </form>
+    <script src="js/order.js"></script>
+  </body>
+</html>
