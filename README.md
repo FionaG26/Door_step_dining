@@ -28,9 +28,6 @@ DoorstepDining utilizes a range of cutting-edge technologies to provide a seamle
 ### Front-end
 - HTML5
 - CSS3
-- JavaScript (React.js)
-
-React.js simplifies building user interfaces by using reusable components. Its virtual DOM enhances performance by minimizing page updates.
 
 ### Back-end
 - Node.js
@@ -38,15 +35,8 @@ React.js simplifies building user interfaces by using reusable components. Its v
 
 Node.js is known for its speed and scalability, making it an excellent choice for building server-side applications. Express.js streamlines routing, middleware management, and handling HTTP requests, reducing development time.
 
-### Database
-- MongoDB
-
-MongoDB is a NoSQL database that offers flexibility and scalability. Its document-oriented structure allows us to store and retrieve data in a JSON-like format, aligning perfectly with JavaScript and making it easy to work with.
-
 ### Deployment
-- Heroku
-
-Heroku offers a free tier for small-scale projects, making it cost-effective for startups and developers.
+- Vercel (https://door-step-dining.vercel.app/)
 
 ### Third-Party Integrations
 - **Payment Gateway:** Secure and Convenient Payment Processing
