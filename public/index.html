@@ -1,249 +1,567 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js">
+  <!--<![endif]-->
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Food</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      href="style.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>DoorStep &mdash; Dining</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Doorstep Dining" />
+    <meta
+      name="keywords"
+      content="Doorstep Dining"
     />
+    <meta name="Fiona Githaiga" content="Doorstep Dining" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico" />
 
     <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
-      crossorigin="anonymous"
+      type="text/css"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="Index.css" />
 
-    <body>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo" /></a>
-          <a class="navbar-brand" href="#">DoorstepDining</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-expanded="false"
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="css/simple-line-icons.css" />
+    <!-- Datetimepicker -->
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="fh5co-container">
+      <div id="fh5co-home" class="js-fullheight" data-section="home">
+        <div class="flexslider">
+          <div class="fh5co-overlay"></div>
+          <div class="fh5co-text">
+            <div class="container">
+              <div class="row">
+                <h1 class="to-animate">DoorStep Dining</h1>
+                <h2 class="to-animate">
+                  <span>Delight to your DoorStep!</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <ul class="slides">
+            <li
+              style="background-image: url(images/slide_1.jpg)"
+              data-stellar-background-ratio="0.5"
+            ></li>
+            <li
+              style="background-image: url(images/slide_2.jpg)"
+              data-stellar-background-ratio="0.5"
+            ></li>
+            <li
+              style="background-image: url(images/slide_3.jpg)"
+              data-stellar-background-ratio="0.5"
+            ></li>
+             <li
+              style="background-image: url(images/slide_4.jpg)"
+              data-stellar-background-ratio="0.5"
+            ></li>
+             <li
+              style="background-image: url(images/slide_5.jpg)"
+              data-stellar-background-ratio="0.5"
+            ></li>
+             <li
+              style="background-image: url(images/slide_6.jpg)"
+              data-stellar-background-ratio="0.5"
+            ></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="js-sticky">
+        <div class="fh5co-main-nav">
+          <div class="container-fluid">
+            <div class="fh5co-menu-1">
+              <a href="#" data-nav-section="home">Home</a>
+              <a href="#" data-nav-section="about">About</a>
+              <a href="#" data-nav-section="features">Menu</a>
+            </div>
+            <div class="fh5co-logo">
+              <a href="index.html"> Doorstep</a>
+              <span>Dining</span>
+            </div>
+            <div class="fh5co-menu-2">
+              <a href="#" data-nav-section="menu">Drinks</a>
+              <a href="#" data-nav-section="reservation">Reservation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div id="fh5co-about" data-section="about">
+        <div
+          class="fh5co-2col fh5co-bg to-animate-2"
+          style="background-image: url(images/bg2.jpg)"
+        ></div>
+        <div class="fh5co-2col fh5co-text">
+          <h2 class="heading to-animate">About Us</h2>
+          <p class="to-animate">
+            <span class="firstcharacter">W</span>elcome to Doorstep Dining, your
+            ultimate destination for the authentic flavors of Kenya delivered
+            right to your doorstep.What sets us apart is our unwavering
+            commitment to quality and authenticity. We work closely with
+            talented Kenyan chefs who have honed their craft over years,
+            ensuring that every dish we offer captures the true essence of
+            Kenyan flavors. From the tantalizing aroma of Nyama Choma to the
+            comforting warmth of Ugali, our menu showcases the very best of
+            Kenyan gastronomy. But it's not just about the food; it's about the
+            experience. We understand that food is a way to connect with culture
+            and tradition. That's why, with each delivery, we aim to transport
+            you to the heart of Kenya, allowing you to savor the tastes and
+            aromas that define this beautiful country.
+          </p>
+        </div>
+      </div>
+
+    <div id="fh5co-featured" data-section="features">
+        <div class="container">
+          <div class="row text-center fh5co-heading row-padded">
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="heading to-animate">Featured Dishes</h2>
+              <p class="sub-heading to-animate">Popular dishes!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="fh5co-grid">
+              <div class="fh5co-v-half to-animate-2">
+                <div
+                  class="fh5co-v-col-2 fh5co-bg-img"
+                  style="background-image: url(images/res_img_1.jpg)"
+                ></div>
+                <div
+                  class="fh5co-v-col-2 fh5co-text fh5co-special-1 arrow-left"
                 >
-                  EN
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <h6 class="dropdown-header">Language</h6>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      data-translation-key="sw"
-                      id="swahiliLink"
-                      >SW</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item ml-lg-3">
-                <a class="nav-link text-light" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">Log In</a>
-              </li>
-              <li class="nav-item dropdown ml-lg-3">
-                <a
-                  class="nav-link dropdown-toggle text-light d-inline-block bg-orange rounded p-1 p-lg-2"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Sign Up
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-lg-right p-5 sign__container"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <h1 class="h4 mb-3 font-weight-normal text-center">
-                    Please sign in
-                  </h1>
-                  <label for="inputEmail" class="sr-only">Email address</label>
-                  <input
-                    type="email"
-                    id="inputEmail"
-                    class="form-control"
-                    placeholder="Email address"
-                    required=""
-                    autofocus=""
-                  />
-                  <label for="inputPassword" class="sr-only">Password</label>
-                  <input
-                    type="password"
-                    id="inputPassword"
-                    class="form-control mb-2"
-                    placeholder="Password"
-                    required=""
-                  />
-                  <div class="checkbox mb-4">
-                    <label>
-                      <input type="checkbox" value="remember-me" /> Remember me
-                    </label>
+                  <h2>Chapati Beef</h2>
+                  <span class="pricing"> Kes 750</span>
+                   <div class="d-grid gap-2">  <a class="btn btn-lg btn-danger btn-order"
+     href="order.html"
+     role="button"
+     data-name="Chapati Beef"
+     data-price="750">
+    Order now
+  </a></div>
+                </div>  
+              </div>
+         
+
+              <div class="fh5co-v-half">
+                <div class="fh5co-h-row-2 to-animate-2">
+                  <div
+                    class="fh5co-v-col-2 fh5co-bg-img"
+                    style="background-image: url(images/res_img_2.jpg)"
+                  ></div>
+                  <div class="fh5co-v-col-2 fh5co-text arrow-left">
+                    <h2>Chiken Stew</h2>
+                    <span class="pricing"> Kes 1200</span>
+                     <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="order.html" role="button"  data-name="Chicken Stew"
+     data-price="1200"  >Order now</a></div>
                   </div>
-                  <button
-                    class="btn btn-lg bg-orange btn-block text-light"
-                    type="submit"
-                  >
-                    Sign in
-                  </button>
+                </div>
+                <div class="fh5co-h-row-2 fh5co-reversed to-animate-2">
+                  <div
+                    class="fh5co-v-col-2 fh5co-bg-img"
+                    style="background-image: url(images/res_img_8.jpg)"
+                  ></div>
+                  <div class="fh5co-v-col-2 fh5co-text arrow-right">
+                    <h2>Grilled Chicken</h2>
+                    <span class="pricing"> Kes 450</span>
+                     <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Grilled Chicken"
+     data-price="450" > Order now</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="fh5co-v-half">
+                <div class="fh5co-h-row-2 fh5co-reversed to-animate-2">
+                  <div
+                    class="fh5co-v-col-2 fh5co-bg-img"
+                    style="background-image: url(images/res_img_7.jpg)"
+                  ></div>
+                  <div class="fh5co-v-col-2 fh5co-text arrow-right">
+                    <h2>Matoke</h2>
+                    <span class="pricing"> Kes 499</span>
+                     <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Matoke"
+     data-price="499" >Order now</a></div>
+                  </div>
+                </div>
+                <div class="fh5co-h-row-2 to-animate-2">
+                  <div
+                    class="fh5co-v-col-2 fh5co-bg-img"
+                    style="background-image: url(images/res_img_6.jpg)"
+                  ></div>
+                  <div class="fh5co-v-col-2 fh5co-text arrow-left">
+                    <h2>Githeri</h2>
+                    <span class="pricing"> Kes 450</span>
+                     <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Githeri"
+     data-price="450" >Order now</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="fh5co-v-half to-animate-2">
+                <div
+                  class="fh5co-v-col-2 fh5co-bg-img"
+                  style="background-image: url(images/res_img_3.jpg)"
+                ></div>
+                <div
+                  class="fh5co-v-col-2 fh5co-text fh5co-special-1 arrow-left"
+                >
+                  <h2>Pilau Chicken</h2>
+                  <span class="pricing"> Kes 1299</span>
+                   <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Pilau Chicken"
+     data-price="1299" >Order now</a></div>
+     </div>
+
+            <div class="fh5co-h-row-2 to-animate-2">
+                <div
+                  class="fh5co-v-col-2 fh5co-bg-img"
+                  style="background-image: url(images/ugali-fish.jpeg)"
+                ></div>
+                <div
+                  class="fh5co-v-col-2 fh5co-text fh5co-special-1 arrow-right"
+                >
+                  <h2>ugali-fish</h2>
+                  <span class="pricing"> Kes 799</span>
+                   <div class="d-grid gap-2"><a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Pilau Chicken"
+     data-price="1299" >Order now</a></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
+
+      <div id="fh5co-menus" data-section="menu">
+        <div class="container">
+          <div class="row text-center fh5co-heading row-padded">
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="heading to-animate">Drinks</h2>
+              <p class="sub-heading to-animate">
+                Refreshing healthy drinks to satisfy your taste buds!
+              </p>
+            </div>
+          </div>
+          <div class="row row-padded">
+            <div class="col-md-6">
+              <div class="fh5co-food-menu to-animate-2">
+                <ul>
+                  <li>
+                    <div class="fh5co-food-desc">
+                      <figure>
+                        <img
+                          src="images/res_img_5.jpg"
+                          class="img-responsive"
+                          alt="Pineapple juice"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Pineapple Juice</h3>
+                      </div>
+                    </div>
+                    <div class="fh5co-food-pricing">Kes 100 <a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Pineapple Juice"
+     data-price="100">Order now </a></div>
+                  </li>
+                  <li>
+                    <div class="fh5co-food-desc">
+                      <figure>
+                        <img
+                          src="images/mango.jpg"
+                          class="img-responsive"
+                          alt="Mango juice"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Mango Juice</h3>
+                      </div>
+                    </div>
+                    <div class="fh5co-food-pricing">Kes 100 <a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Mango Juice"
+     data-price="100">Order now</a></div>
+                  </li>
+                  <li>
+                    <div class="fh5co-food-desc">
+                      <figure>
+                        <img
+                          src="images/orange.jpeg"
+                          class="img-responsive"
+                          alt="Orange juice"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Orange juice</h3>
+                      </div>
+                    </div>
+                    <div class="fh5co-food-pricing">Kes 100 <a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Orange Juice"
+     data-price="100" >Order now</a></div>
+                  </li>
+                  <li>
+                    <div class="fh5co-food-desc">
+                      <figure>
+                        <img
+                          src="images/apple.jpg"
+                          class="img-responsive"
+                          alt="Apple juice"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Apple juice</h3>
+                      </div>
+                    </div>
+                    <div class="fh5co-food-pricing">Kes 100 <a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Apple Juice"
+     data-price="100" >Order now</a></div>
+                  </li>
                 </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="fh5co-food-menu to-animate-2">
+                <ul>
+                  <li>
+                    <div class="fh5co-food-desc">
+                      <figure>
+                        <img
+                          src="images/Passion.jpg"
+                          class="img-responsive"
+                          alt="Passion juice"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Passion juice</h3>
+                      </div>
+                    </div>
+                    <div class="fh5co-food-pricing">Kes 100 <a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Passion Juice"
+     data-price="100">Order now</a></div>
+                  </li>
+                  <li>
+                    <div class="fh5co-food-desc">
+                      <figure>
+                        <img
+                          src="images/Strawberry.jpg"
+                          class="img-responsive"
+                          alt="Strawberry juice"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Strawberry Juice</h3>
+                      </div>
+                    </div>
+                    <div class="fh5co-food-pricing">Kes 100 <a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Strawberry Juice"
+     data-price="100">Order now</a></div>
+                  </li>
+                  <li>
+                    <div class="fh5co-food-desc">
+                      <figure>
+                        <img
+                          src="images/grape.jpeg"
+                          class="img-responsive"
+                          alt="Strawberry"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Grape juice</h3>
+                      </div>
+                    </div>
+                    <div class="fh5co-food-pricing">Kes 100 <a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Grape Juice"
+     data-price="100">Order now</a></div>
+                  </li>
+                  <li>
+                    <div class="fh5co-food-desc">
+                      <figure>
+                        <img
+                          src="images/Kiwi-Juice-.jpg"
+                          class="img-responsive"
+                          alt="Kiwi juice"
+                        />
+                      </figure>
+                      <div>
+                        <h3>Kiwi juice</h3>
+                      </div>
+                    </div>
+                    <div class="fh5co-food-pricing">Kes 100 <a class="btn btn-lg btn-danger" href="order.html" role="button" data-name="Kiwi Juice"
+     data-price="100">Order now</a></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+     <div id="fh5co-contact" data-section="reservation">
+        <div class="container">
+          <div class="row text-center fh5co-heading row-padded">
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="heading to-animate">Reserve a Table</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 to-animate-2">
+              <h3>Contact Info</h3>
+              <ul class="fh5co-contact-info">
+               
+                <li><i class="icon-phone"></i> +254715826156</li>
+                <li><i class="icon-envelope"></i>doorstepdining@gmail</li>
+                <li>
+                  <i class="icon-globe"></i>
+                  <a href="http://doordining.co/" target="_blank"
+                    >doorstepdining.co</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 to-animate-2">
+              <h3>Reservation Form</h3>
+              <div class="form-group">
+                <label for="name" class="sr-only">Name</label>
+                <input
+                  id="name"
+                  class="form-control"
+                  placeholder="Name"
+                  type="text"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input
+                  id="email"
+                  class="form-control"
+                  placeholder="Email"
+                  type="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="occation" class="sr-only">Occassion</label>
+                <select class="form-control" id="occation">
+                  <option>Select an Occassion</option>
+                  <option>Wedding Ceremony</option>
+                  <option>Birthday</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="date" class="sr-only">Date</label>
+                <input
+                  id="date"
+                  class="form-control"
+                  placeholder="Date &amp; Time"
+                  type="text"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="sr-only">Message</label>
+                <textarea
+                  name=""
+                  id="message"
+                  cols="30"
+                  rows="5"
+                  class="form-control"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <input
+                  class="btn btn-primary"
+                  value="Send Message"
+                  type="submit"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fh5co-footer">
+      <div class="container">
+        <div class="row row-padded">
+          <div class="col-md-12 text-center">
+            <p class="to-animate">
+              &copy; 2023<br />
+              Designed by
+              <a href="https://github.com/FionaG26" target="_blank">Fiona Githaiga</a>
+            </p>
+            <p class="text-center to-animate">
+              <a href="#" class="js-gotop">Go To Top</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <ul class="fh5co-social">
+              <li class="to-animate-2">
+                <a href="https://github.com/FionaG26"><i class="icon-github"></i></a>
+              </li>
+              <li class="to-animate-2">
+                <a href="https://twitter.com/fiona_githaiga"><i class="icon-twitter"></i></a>
+              </li>
+              <li class="to-animate-2">
+                <a href="https://www.linkedin.com/in/fiona-githaiga-3282aa194/"><i class="icon-linkedin"></i></a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </div>
 
-      <main class="container-fluid cover">
-        <div
-          class="row align-items-center justify-content-center justify-content-xl-start vh-80"
-        >
-          <div
-            class="col col-sm-7 text-center text-xl-left col-xl-4 offset-xl-2"
-          >
-            <div class="text-container">
-              <h1 class="mb-4">
-                Food delivery from the best restaurants in your town
-              </h1>
-              <p class="mb-5 subtitle-mb">
-                Food, drinks and desserts available for delivery or pickup.
-              </p>
-            </div>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap DateTimePicker -->
+    <script src="js/moment.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
 
-            <div class="input-group-wrapper">
-              <div class="input-group mb-3 shadow">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Enter delivery address"
-                  aria-label="Search"
-                  aria-describedby="basic-addon1"
-                />
-                <div class="input-group-prepend">
-                  <button
-                    class="btn bg-orange text-light text-uppercase p-3"
-                    type="button"
-                  >
-                    Find food
-                  </button>
-                </div>
-              </div>
-            </div>
-            <!-- <form class="d-flex shadow">
-                    <input class="form-control " type="search" placeholder="Enter delivery address" aria-label="Search">
-                    
-                    <button class="btn bg-orange  text-white ml-3 text-uppercase " type="submit">Find Food</button>
-                </form> -->
-          </div>
-        </div>
-      </main>
-
-      <footer class="page-footer font-small bg-light">
-        <div>
-          <div class="container-fluid">
-            <!-- Grid row-->
-            <div class="row py-4 d-flex align-items-center">
-              <!-- Grid column -->
-              <div
-                class="col-md-7 col-lg-5 col-xl-4 text-center text-md-left mb-md-0 small"
-              >
-                <nav
-                  class="nav justify-content-center justify-content-md-start"
-                >
-                  <a class="nav-link text-muted" href="#">Terms of Privacy</a>
-                  <a class="nav-link text-muted" href="#">Cookies</a>
-                  <a class="nav-link text-muted" href="#">About</a>
-                  <a class="nav-link text-muted" href="#">Contact</a>
-                </nav>
-              </div>
-              <!-- Grid column -->
-              <div
-                class="col-md-3 col-lg-4 col-xl-6 text-center text-md-left mb-md-0 small"
-              >
-                <div
-                  class="footer-copyright text-center text-black-50 pt-3 pb-2"
-                >
-                  © 2023
-                </div>
-              </div>
-
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-3 col-xl-2 text-center text-md-right">
-                <a href="#" class="text-dark">
-                  <i class="fab fa-facebook-f white-text mx-2"> </i
-                ></a>
-                <a href="#" class="text-dark">
-                  <i class="fab fa-twitter white-text mx-2"> </i
-                ></a>
-                <a href="#" class="text-dark">
-                  <i class="fab fa-instagram white-text mx-2"> </i
-                ></a>
-              </div>
-              <!-- Grid column -->
-            </div>
-            <!-- Grid row-->
-          </div>
-        </div>
-      </footer>
-      <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-        crossorigin="anonymous"
-      ></script>
-
-      <script type="module" src="Home.js"></script>
-      <script type="module" src="Login.js"></script>
-      <script type="module" src="MyFoods.js"></script>
-      <script type="module" src="MyOrders.js"></script>
-      <script type="module" src="Navbar.js"></script>
-      <script type="module" src="Navbar2.js"></script>
-      <script type="module" src="OrderRequests.js"></script>
-      <script type="module" src="RegisterRestaurant.js"></script>
-      <script type="module" src="RestaurantDetails.js"></script>
-      <script type="module" src="Restaurants.js"></script>
-      <script type="module" src="App.js"></script>
-      <script type="module" src="Index.js"></script>
-      <script type="module" src="serviceWorker.js"></script>
-      <script type="module" src="action.js"></script>
-      <script type="module" src="Footer.js"></script>
-    </body>
-  </head>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script>
+      $(function () {
+        $("#date").datetimepicker();
+      });
+    </script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
+ 
