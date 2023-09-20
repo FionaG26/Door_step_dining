@@ -40,10 +40,7 @@ Node.js is known for its speed and scalability, making it an excellent choice fo
 
 ### Third-Party Integrations
 - **Payment Gateway:** Secure and Convenient Payment Processing
-  We integrate local payment options widely used in Kenya, such as M-Pesa and various mobile banking apps, to cater to the preferences of our Kenyan user base.
-
-- **Mapping Service:** Google Maps API for Location-Based Feature
-  Accurate location services are crucial for a food delivery application, especially in Kenya's diverse urban and rural areas. We ensure that the Google Maps integration is tailored to the unique geographical and logistical challenges of Kenya, including addressing rural areas and diverse terrain.
+  We integrate local payment options widely used in Kenya, such as M-Pesa and Airtel money, to cater to the preferences of our Kenyan user base.
 
 ## Installation
 
